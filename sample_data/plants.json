@@ -1,0 +1,82 @@
+{
+  "store": "Northwind Home Goods",
+  "period": "October 2026",
+  "planted_exceptions": [
+    {
+      "type": "Missing from settlement",
+      "order_id": "ORD-1059",
+      "channel": "Amazon"
+    },
+    {
+      "type": "Missing from settlement",
+      "order_id": "ORD-1116",
+      "channel": "Amazon"
+    },
+    {
+      "type": "Missing from settlement",
+      "order_id": "ORD-1107",
+      "channel": "Amazon"
+    },
+    {
+      "type": "Missing from settlement",
+      "order_id": "ORD-1075",
+      "channel": "Shopify"
+    },
+    {
+      "type": "Missing from settlement",
+      "order_id": "ORD-1106",
+      "channel": "Shopify"
+    },
+    {
+      "type": "Fee overcharge",
+      "order_id": "ORD-1055",
+      "channel": "Amazon",
+      "detail": "Amazon referral charged at 18% instead of 15%"
+    },
+    {
+      "type": "Fee overcharge",
+      "order_id": "ORD-1016",
+      "channel": "Amazon",
+      "detail": "Amazon referral charged at 18% instead of 15%"
+    },
+    {
+      "type": "Fee overcharge",
+      "order_id": "ORD-1004",
+      "channel": "Shopify",
+      "detail": "Shopify processing charged at 3.9% instead of 2.9%"
+    },
+    {
+      "type": "Fee overcharge",
+      "order_id": "ORD-1093",
+      "channel": "Shopify",
+      "detail": "Shopify processing charged at 3.9% instead of 2.9%"
+    },
+    {
+      "type": "Duplicate payout",
+      "order_id": "ORD-1060",
+      "channel": "Amazon"
+    },
+    {
+      "type": "Duplicate payout",
+      "order_id": "ORD-1102",
+      "channel": "Shopify"
+    },
+    {
+      "type": "Wrong payout amount",
+      "order_id": "ORD-1088",
+      "channel": "Shopify",
+      "detail": "Payout $13.47 less than the settlement arithmetic"
+    },
+    {
+      "type": "Refund deducted twice",
+      "order_id": "ORD-1057",
+      "channel": "Amazon"
+    },
+    {
+      "type": "Refund deducted twice",
+      "order_id": "ORD-1096",
+      "channel": "Shopify"
+    }
+  ],
+  "planted_count": 14
+}

@@ -1,0 +1,23 @@
+{
+  "orders": 120,
+  "units": 189,
+  "revenue": "9824.97",
+  "refunds": "666.93",
+  "cogs": "3578.15",
+  "fees": "1260.46",
+  "ad_spend": "2835.08",
+  "shipping": "1170.67",
+  "net_profit": "313.68",
+  "expected_payouts": "7897.58",
+  "actual_payouts": "7628.69",
+  "net_leakage": "268.89",
+  "exceptions": 14,
+  "exception_abs_impact": "589.25",
+  "exception_types": {
+    "Duplicate payout": 2,
+    "Fee overcharge": 4,
+    "Missing from settlement": 5,
+    "Refund deducted twice": 2,
+    "Wrong payout amount": 1
+  }
+}
